@@ -8,13 +8,13 @@
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
-    background: #eee2dc;
+    background: #d2fdff;
     color: #123c69;
 }
 
 .footer{
-    background-color: #ac3b61;
-    color:  #eee2dc;
+    background-color: #b4dfe5;
+    color:  black;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -22,8 +22,8 @@
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #eee2dc;
-    color: #123c69;
+    background: #d2fdff;
+    color: #000000;
 }
 
 .address{
@@ -34,19 +34,19 @@
 body{
     padding: 50px 0px 0px 0px;
     z-index: 0;
-    background: #eee2dc;
-    color: #123c69;
+    background: #d2fdff;
+    color: black;
 }
 
 .navbar-dark {
-    background: #ac3b61;
-    color: #123c69;
+    background: #b4dfe5;
+    color: #000000;
 }
 
 .tab-content{
-    border-left: 1px solid #3aafa9;
-    border-right: 1px solid #3aafa9;
-    border-bottom: 1px solid #3aafa9;
+    border-left: 1px solid #d2fdff;
+    border-right: 1px solid #d2fdff;
+    border-bottom: 1px solid #d2fdff;
     padding: 10px;
 }
 

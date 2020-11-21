@@ -40,18 +40,20 @@
     <header class="jumbotron">
         <div class="container">
             <div class= "row row-header">
-                <div >
-                    <h1 class="col-12 col-sm-8">Primera Iglesia Bautista de Durango</h1>
-                    <h2 class="col-12 col-sm-6 offset-3">WELCOME HOME!</h2>
-                    <p class="d-none d-sm-block p-2 offset-6">We are a local church, we love God and people</p>
+                <div  class="col-12 " >
+                    <h1>Primera Iglesia Bautista de Durango</h1>  
                 </div>
-                
-                
+                <div class="col-12 col-sm-6 text-right ">
+                    <h1 class="font-weight-bold">WELCOME HOME!</h1>
+                </div>
+                <div class="col-12  offset-sm-5">
+                    <h3 >We are a local church </h3>
+                </div>
+                <div class="col-12 offset-sm-5">
+                    <h3> We <i class="fa fa-heart-o " aria-hidden="true"></i> God and people</h3>
+                </div>
             </div>
         </div>
-
-
-        
     </header>
 
    
@@ -72,52 +74,29 @@
                 <div class= "col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
+		              Francisco Sarabia #199<br>
+		              esq. Calle Luna<br>
+		              Durango, Dgo. Mexico<br>
 		             <i class="fa fa-phone fa-lg"></i>: +526188113390<br>
-                     <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">pibdgo@hotmail.com</a>
+                     <i class="fa fa-envelope fa-lg"></i>: <a href="mail">pibdgo@hotmail.com</a>
 		           </address>
                 </div>
                 <div class= "col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/pib.dgo"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="https://www.youtube.com/channel/UCsZee8UTQvS30jkgokXiPwg"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mail"><i class="fa fa-envelope fa-lg"></i></a>
                     </div>
                 </div>
            </div>
-           <div  class ="row justify-content-center">             
-                <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
-                </div>
-           </div>
+           
         </div>
     </footer>
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $("#mycarousel").carousel( { interval: 2000 } );
-        $("#carouselButton").click(function(){
-            if($('#carouselButton').children('span').hasClass('fa-pause')) {
-                $("#mycarousel").carousel('pause');
-                $('#carouselButton').children('span').removeClass('fa-pause');
-                $('#carouselButton').children('span').addClass('fa-play');
-            }
-            else  if($('#carouselButton').children('span').hasClass('fa-play')) {
-                $("#mycarousel").carousel('cycle');
-                $('#carouselButton').children('span').removeClass('fa-play');
-                $('#carouselButton').children('span').addClass('fa-pause');
-            }
-        });
-    });
-</script>
+
 
 
 </body>
