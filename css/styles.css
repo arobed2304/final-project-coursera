@@ -1,6 +1,6 @@
 .row-header{
-    margin:0px auto;
-    padding: 0px auto;
+    margin: 0px auto ;
+    padding-top: 0px auto;
 }
 
 .row-content{
@@ -8,21 +8,22 @@
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
-    background: #d2fdff;
-    color: #123c69;
+    background: white;
+    color: #000000;
 }
 
 .footer{
-    background-color: #b4dfe5;
+    background-color: grey;
     color:  black;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
 
 .jumbotron{
-    padding: 70px 30px 70px 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
     margin: 0px auto;
-    background: #d2fdff;
+    background: #ffffff;
     color: #000000;
 }
 
@@ -35,7 +36,7 @@
 body{
     padding: 50px 0px 0px 0px;
     z-index: 0;
-    background: #d2fdff;
+    background: white;
     color: black;
 }
 
