@@ -46,8 +46,60 @@
             </div>
     </header>
 
-    <div>
-        <p>aqui van los eventos</p>
+    <div class="container">
+        <div class="row row-content">
+          
+    
+            <form>
+                <h3>Escuela Biblica Dominical<i class="fa fa-heart" aria-hidden="true"></i></h3>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Correo electronico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                  <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo electronico con nadie.</small>
+                </div>
+                
+                <div class="form-row">
+                    <div class="col-md-5 mb-3">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombres"  required>
+                        <div class="valid-feedback">
+                          bien!
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 mb-3">
+                        <label for="apellido">Apellidos</label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Apellidos"  required>
+                        <div class="valid-feedback">
+                          bien!
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="peticion">Clase</label>
+                    <select class="form-control">
+                        <option>Selecciona una clase</option>
+                        <option>Adultos 30+</option>
+                        <option>Jovenes 15-30</option>
+                        <option>Adolecentes 12-15</option>
+                        <option>PIB kids</option>
+                      </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Si esta inscribiendo a su hij@ a PIB kids porfavor especifique la edad</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="PIB kids">
+                  </div>
+                <button type="submit" class="btn btn-primary" style="padding-top: 3px;">Enviar</button>
+            </form>
+
+            <div class="offset-1 text-center">
+                <p class="font-weight-bold">Escuela Biblica dominical esta diseñada para que, no importa tu edad, <br>
+                    sigas buscando conocer mas a Dios junto con la familia.<br>
+                    <i class="fa fa-users" aria-hidden="true"></i>NOS APOYAMOS, NOS AMAMOS Y APRENDEMOS</p>
+            </div>
+
+        </div>
     </div>
 
     <footer class="footer">
